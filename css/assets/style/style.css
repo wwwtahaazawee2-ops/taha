@@ -24,10 +24,20 @@ h1
     
     
 } */
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
  h1 {
 
 text-decoration-line:overline;
 text-transform: uppercase;
+
 }
 
 h2 {
@@ -37,8 +47,19 @@ h2 {
 
 h3 {
   text-decoration-line: underline;
-  text-transform: uppercase;
+  font: bold;
+}
 
 p {
   text-decoration-line: overline underline;
+  font-family: 'Courier New', Courier, monospace;
+
 }
+/* body {
+  background-image: url("/123.jpg");
+} */
+ *{
+    padding: 0%;
+    margin: 0%;
+     font-family: "Roboto", sans-serif;
+ }
